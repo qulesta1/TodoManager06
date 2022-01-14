@@ -33,7 +33,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeHolder> {
         return list.size();
     }
 
-    public void addText(String text){
+    public void addText(String text) {
         list.add(text);
     }
 
@@ -41,7 +41,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeHolder> {
 
         public HomeHolder(@NonNull ItemTaskBinding binding) {
             super(binding.getRoot());
-
         }
 
         public void onBind(String text) {
